@@ -1,0 +1,19 @@
+{
+  "name": "investus",
+  "version": "1.0.0",
+  "description": "Bot Investus",
+  "main": "src/server.js",
+  "repository": "https://github.com/brunossouza/bot_investus.git",
+  "author": "Bruno Silva",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "botgram": "^2.2.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
