@@ -7,7 +7,8 @@
   "author": "Bruno Silva",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon src/server.js"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
   },
   "dependencies": {
     "botgram": "^2.2.0",
